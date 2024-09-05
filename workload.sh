@@ -15,7 +15,7 @@ underscored_ip=$(echo $ipaddress | sed 's/\./_/g')
 currentdate+=$underscored_ip
 used_num_of_cores=`expr $num_of_cores - 3`
 echo ""
-echo "$You will use used_num_of_cores"
+echo "You will use $used_num_of_cores cores"
 echo ""
 
 sleep 2
